@@ -1,0 +1,21 @@
+{
+  "name": "botliner-messenger-line",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bottender dev",
+    "lint": "eslint . ",
+    "start": "bottender start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bottender": "1.4.10",
+    "bottender-compose": "^1.0.0-beta.0",
+    "eslint": "7.11.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "jest": "26.5.2",
+    "prettier": "2.1.2",
+    "redis": "^3.0.2"
+  }
+}
